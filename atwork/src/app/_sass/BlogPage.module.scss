@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blog_summary {
+    max-width: 100%;
+    padding: 5rem;
+    width: 33%;
+    .blog_detail {
+        padding: 0 5%;
+        margin-top: 3rem;
+    }
+    h5 {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+.blogs_list {
+    display: flex;
+}
+.blogImage {
+    width: 100%;
+}
+.image {
+    width: 5rem;
+}
+// .blog_details {
+//     width: 2rem;
+// }

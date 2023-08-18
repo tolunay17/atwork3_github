@@ -1,0 +1,22 @@
+.Container {
+display: flex;
+padding: 0 5%;
+margin-top: 3rem;
+/* background-color: lightblue; */
+}
+h1 {
+    padding-bottom: 3rem;
+}
+h3 {
+    padding-top: 2rem;
+}
+P {
+    padding-top: 1rem;
+}
+
+.Container-dark{
+    /* background-color: blue; */
+}
+.Container-light{
+    /* background-color: lightsalmon; */
+}

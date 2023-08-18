@@ -1,0 +1,43 @@
+.about_page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+padding-bottom: 5rem;
+}
+.about_content {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.about_image {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.about_image img {
+  max-width: 100%;
+  width: 20rem;
+  border: none;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+}

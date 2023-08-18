@@ -1,0 +1,115 @@
+.signupcontainer {
+    margin: 0 auto;
+    align-items: center;
+    padding: 1rem;
+    h1 {
+        text-align: center;
+    }
+
+    .name {
+        width: 100%;
+        padding: 1rem 0;
+
+        .error {
+            font-size: 0.7rem;
+            color: rgb(122, 12, 22);
+            margin-bottom: 10px;
+
+        }
+    }
+
+    .google_text {
+        padding-left: 1rem;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        border: 1px solid #BECCEA;
+        border-radius: 0.5rem;
+        width: 100%;
+        padding: 0.5rem;
+
+    }
+
+    h2 {
+        margin-bottom: 0.5rem;
+        padding: 0;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1rem;
+    }
+
+    .links {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .forlink {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .privacy {
+        text-align: center;
+    }
+    .btnlogin {
+        background-color: #dd2b1e;
+        border-radius: 1.5rem;
+        padding: 1rem 1rem;
+        width: 100%;
+        font-size: 1.5rem;
+        border: none;
+        color: #BECCEA;
+        font-family: "Fira Sans";
+    }
+
+}
+
+
+
+
+@media (min-width: 48rem) {
+    .signupcontainer {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 64rem) {
+    h1 {
+        font-size: 2.5rem;
+        align-self: center;
+    }
+
+    .logo__black {
+        height: 7rem;
+    }
+
+    .google_text {
+        font-size: 1.5rem;
+    }
+
+    .google_logo {
+        width: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        font-size: 1.2rem;
+    }
+
+    .forlink {
+        font-size: 1.2rem;
+    }
+
+    .privacy {
+        font-size: 1.2rem;
+    }
+}
