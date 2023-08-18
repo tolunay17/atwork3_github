@@ -1,3 +1,4 @@
+import styles from '../_sass/PortfolioPage.module.scss'
 import {
     gql,
     useQuery,
@@ -57,8 +58,8 @@ import {
       <>
         {gqlResult()}
         {portfolioData?.map((portfolio) => (
-          <div key={portfolio.id}>
-            <h1>{portfolio.projectName}</h1>
+          <div className={styles.container}  key={portfolio.id}>
+            <h1 className={styles.name}>{portfolio.projectName}</h1>
             <p>{portfolio.projectDescription}</p>
             <p>{portfolio.projectUrl}</p>
             <img src={portfolio.projectImage.url} alt={portfolio.projectImage.id} />
